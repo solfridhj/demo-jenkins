@@ -24,7 +24,7 @@ class CalculateWorkoutServiceTest {
 
         BigDecimal actual = calculateWorkoutService.calculateWorkoutDurationInSeconds(workout);
 
-        BigDecimal expected = BigDecimal.valueOf(1662);
+        BigDecimal expecte= BigDecimal.valueOf(1662);
 
         assertThat(actual).isEqualByComparingTo(expected);
     }
